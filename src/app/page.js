@@ -23,9 +23,9 @@ const Page = () => {
         <Checkbox  defaultSelected>Keep me signed in</Checkbox>
         </div>
         <div className="flex  justify-center gap-4 mb-4 items-center">
-        <Button color="primary" radius="full">
+        <a href='/homepage'><Button color="primary" radius="full">
           Sign In
-        </Button>
+        </Button></a>
         </div>
         <div className='flex justify-center items-center'>
         <p>New to Nest? <Link href='/register'>Join now</Link></p>
